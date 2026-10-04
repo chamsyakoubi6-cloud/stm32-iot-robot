@@ -206,7 +206,10 @@ Replace the placeholders before building:
 ├── esp32.c / .h        # ESP32 AT-command driver (WiFi + HTTP)
 ├── delay.c / .h        # Blocking delay helper
 ├── projet_esp.uvprojx  # Keil µVision project
-└── projet_esp.uvoptx   # Keil µVision options
+├── projet_esp.uvoptx   # Keil µVision options
+├── README.md           # Documentation (this file)
+├── LICENSE             # MIT license
+└── .gitignore          # Ignored build artifacts & editor files
 ```
 
 ---
